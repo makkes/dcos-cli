@@ -15,8 +15,8 @@ pipeline {
 
       steps {
         withCredentials([
-            string(credentialsId: "e270aa3f-4825-480c-a3ec-18a541c4e2d1",variable: "AWS_ACCESS_KEY_ID"),
-            string(credentialsId: "cd616d55-78eb-45de-b7a8-e5bc5ccce4c7",variable: "AWS_SECRET_ACCESS_KEY"),
+            string(credentialsId: "1ddc25d8-0873-4b6f-949a-ae803b074e7a",variable: "AWS_ACCESS_KEY_ID"),
+            string(credentialsId: "875cfce9-90ca-4174-8720-816b4cb7f10f",variable: "AWS_SECRET_ACCESS_KEY"),
         ]) {
             sh '''
               bash -exc " \
